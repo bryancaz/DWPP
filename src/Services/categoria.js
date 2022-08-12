@@ -10,6 +10,7 @@ export const agregarCategoria = async (categoria) => {
             "nombre": categoria.nombre,
             "descripcion": categoria.descripcion
     }
+    //*
     const response = await axios.post('categoria/', data, {
         headers:{
             'ContentType': 'application/json'

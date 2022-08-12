@@ -20,3 +20,4 @@ export const eliminarViaje = async (id) => {
     const response = await axios.delete(`viaje/${id}`);
     return response
 }
+//*
